@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Form</title>
+</head>
+<body>
+    
+    <Form>
+        <h1>Complex Form</h1>
+        <fieldset>
+            <Legend>Personal Information</Legend>
+            <Label for="name">Name:</Label>
+            <input type="text" id="name" name="Name">
+            <br/>
+            <br/>
+
+            <Label for="email">Email ID:</Label>
+            <input type="email" id="email" name="email">
+            <br/>
+            <br/>
+
+            <Label for="tel">Phone:</Label>
+            <input type="tel" id="tel" name="tel">
+            <br/>
+            <br/>
+
+            <Label for="date">Date of Birth:</Label>
+            <input type="date" id="date" name="date">
+            <br/>
+            <br/>
+
+            <Label for="counter">Age in Number:</Label>
+            <input type="number" id="counter"  name="counter" min="0"  max="100">
+            <br/>
+            <br/>
+            
+            <p style="display:inline">Gender:</p>
+            <Label for="radio">Male:</Label>
+            <input type="radio" id="radio" name="Gender">
+
+            <Label for="radio1">Female:</Label>
+            <input type="radio" id="radio1" name="Gender">
+            <br/>
+            <br/>
+
+            <Label for="country">Country:</Label>
+            <select name="country" id="country">
+                <option value="Pakistan">Pakistan</option>
+                <option value="us">USA</option>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>Adress</legend>
+            <Label for="street">Street:</Label>
+            <input type="text" id="street" name="street">
+            <br/>
+            <br/>
+
+            <Label for="city">City:</Label>
+            <input type="text" id="city" name="city">
+            <br/>
+            <br/>
+
+            <Label for="state">State:</Label>
+            <input type="text" id="state" name="state">
+            <br/>
+            <br/>
+
+            <Label for="zip">Zip Code:</Label>
+            <input type="text" id="zip" name="zip">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Others Information</legend>
+            <label for="Comment">Comment:</label>
+            <br/>
+            <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea> 
+            <label for="agree">i agree on this</label>
+            <input type="checkbox" id="agree" name="agree">
+
+        </fieldset>
+        <input type="submit" value="submit">
+
+    </Form>
+
+
+</body>
+</html>
